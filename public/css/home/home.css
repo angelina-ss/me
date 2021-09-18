@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Vollkorn;
+    src: url('../../fonts/Vollkorn/Vollkorn-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: open_sans;
+    src: url('../../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+html, body {
+    font-family: open_sans;
+}
+
+container {
+    background-color: bisque;
+    margin: auto;
+    display: flex;
+}
+
+div h1 {
+    text-align: center;
+    font-family: Vollkorn;
+}
+
+div h2 {
+    text-align: center;
+    font-family: open_sans;
+}
+
+.headline {
+    width: 100%;
+}
+
+#today {
+    text-align: center;
+    font-family: open_sans;
+    color: cornflowerblue;
+}

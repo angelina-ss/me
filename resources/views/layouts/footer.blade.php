@@ -1,10 +1,13 @@
-<div class="container">
-  <footer class="row row-cols-5 py-5 my-5 border-top">
+<div class="container-full">
+  <footer class="row py-3 my-1 border-top">
+    <p class="copyright">&#169; Angelina_S_S | 2021</p>
+  </footer>
+  <!-- <footer class="row row-cols-5 py-3 my-1 border-top">
     <div class="col">
       <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
       </a>
-      <p class="text-muted">© 2021</p>
+      <p class="text-muted copyright">© Angelina_S_S | 2021</p>
     </div>
     <div class="col">
     </div>
@@ -38,5 +41,5 @@
         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
       </ul>
     </div>
-  </footer>
+  </footer> -->
 </div>
