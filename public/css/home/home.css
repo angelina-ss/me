@@ -12,10 +12,10 @@ html, body {
     font-family: open_sans;
 }
 
-container {
-    background-color: bisque;
+.container {
     margin: auto;
     display: flex;
+    margin-bottom: 7em;
 }
 
 div h1 {

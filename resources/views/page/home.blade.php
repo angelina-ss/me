@@ -10,8 +10,10 @@
         <h1>Ella Marija Lani Yelich-O'Connor</h1>
         <h2>LORDE</h2>
         <p id="today">NZ time</p>
-        <img src="{{ asset('images/home/lorde_at_dior.jpg') }}" class="headline rounded mt-5" alt="Lorde at Dior exhibit opening">
-        <p class="figure-caption text-end">Lorde at the Dior exhibit opening, with Brittany O’Grady & Interview Magazine’s editor-in-chief Mel Ottenberg [Quentin Belt]</p>
+        <div class="frame col-sm-10 mx-auto">
+          <img src="{{ asset('images/home/lorde_at_dior.jpg') }}" class="headline rounded" alt="Lorde at Dior exhibit opening">
+          <p class="figure-caption text-end">Lorde at the Dior exhibit opening, with Brittany O’Grady & Interview Magazine’s editor-in-chief Mel Ottenberg [Quentin Belt]</p>
+        </div>
     </div>
 </div>
 @endsection
