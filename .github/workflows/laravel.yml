@@ -63,6 +63,8 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         username: ${{ secrets.SSH_USERNAME }}
         script: |
+          pwd
+          ls -al
           cd /var/www/html/
           git checkout -f 
           git pull
